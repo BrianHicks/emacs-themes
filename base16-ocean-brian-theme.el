@@ -185,6 +185,12 @@
    `(helm-source-header ((t (:foreground ,base07 :weight bold))))
    `(helm-candidate-number ((t (:foreground ,yellow))))
 
+   ;; guide-key
+   `(guide-key/key-face ((t (:foreground ,base05))))
+   `(guide-key/highlight-command-face ((t (:foreground ,orange))))
+   `(guide-key/prefix-command-face ((t (:foreground ,yellow))))
+   `(guide-key-tip/pos-tip-face ((t (:foreground ,base07 :weight bold))))
+
    ;; TODO diff:    https://github.com/fniessen/emacs-leuven-theme/blob/master/leuven-theme.el#L228
    ;; TODO company: https://github.com/fniessen/emacs-leuven-theme/blob/master/leuven-theme.el#L333-L344
    ;; TODO dired:   https://github.com/fniessen/emacs-leuven-theme/blob/master/leuven-theme.el#L412-L428

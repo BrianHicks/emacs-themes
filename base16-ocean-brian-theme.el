@@ -180,6 +180,11 @@
    `(magit-item-highlight ((t (:background ,base02))))
    `(magit-log-sha1 ((t (:foreground ,red))))
 
+   ;; helm
+   `(helm-selection ((t (:background ,base02))))
+   `(helm-source-header ((t (:foreground ,base07 :weight bold))))
+   `(helm-candidate-number ((t (:foreground ,yellow))))
+
    ;; TODO diff:    https://github.com/fniessen/emacs-leuven-theme/blob/master/leuven-theme.el#L228
    ;; TODO company: https://github.com/fniessen/emacs-leuven-theme/blob/master/leuven-theme.el#L333-L344
    ;; TODO dired:   https://github.com/fniessen/emacs-leuven-theme/blob/master/leuven-theme.el#L412-L428

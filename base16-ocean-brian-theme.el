@@ -179,6 +179,9 @@
    `(magit-header ((t (:foreground ,red))))
    `(magit-item-highlight ((t (:background ,base02))))
    `(magit-log-sha1 ((t (:foreground ,red))))
+   `(git-gutter:added ((t (:background ,green :foreground ,base00))))
+   `(git-gutter:deleted ((t (:background ,red :foreground ,base00))))
+   `(git-gutter:modified ((t (:background ,purple :foreground ,base00))))
 
    ;; helm
    `(helm-selection ((t (:background ,base02))))

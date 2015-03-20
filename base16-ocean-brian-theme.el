@@ -172,6 +172,16 @@
    `(org-verse ((t (:slant italic :foreground ,base05))))
    `(org-warning ((t (:weight bold :foreground ,base07 :background ,base00))))
 
+   ;; org-habit
+   `(org-habit-alert-face ((t (:background ,yellow-light :foreground ,base01))))
+   `(org-habit-alert-future-face ((t (:background ,yellow))))
+   `(org-habit-clear-face ((t (:background ,teal))))
+   `(org-habit-clear-future-face ((t (:background ,teal-dark))))
+   `(org-habit-overdue-face ((t (:background ,red))))
+   `(org-habit-overdue-future-face ((t (:background ,red-dark))))
+   `(org-habit-ready-face ((t (:background ,green))))
+   `(org-habit-ready-future-face ((t (:background ,green-dark))))
+
    ;; flyspell
    (if (version< emacs-version "24.4")
        `(flyspell-duplicate ((t (:underline ,green :inherit nil))))
